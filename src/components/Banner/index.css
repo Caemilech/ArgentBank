@@ -1,0 +1,52 @@
+.banner {
+  background-image: url(../../assets/images/bank-tree.webp); 
+  background-position: 0 -3.125rem;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  height: 300px;
+  position: relative; 
+}
+
+.banner-content {
+  background: white;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  top: 2rem;
+  right: 0;
+  text-align: left;
+  width: 16.25rem;
+}
+
+.banner-content .subtitle {
+  font-size: 1rem;
+  font-weight: bold; 
+}
+
+.banner-content .text {
+  font-size: 0.9rem;
+  margin-top: 1.1875rem;
+}
+
+@media (min-width: 920px) {
+  .banner {
+    background-position: 0% 33%;
+    height: 25rem;
+  }
+
+  .banner-content {
+    position: absolute;
+    top: 3.125rem;
+    right: 3.125rem;
+    margin: 2rem;
+    width: 22.75rem;
+  }
+
+  .banner-content .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .banner-content .text {
+    font-size: 1.2rem;
+  }
+}
